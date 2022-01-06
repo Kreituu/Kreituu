@@ -1,0 +1,194 @@
+body {
+    background-size: cover;
+    background-image: url(../source/bg-index.gif);
+}
+
+.main {
+    position: relative;
+    top: 50px;
+    width: 700px;
+    margin: 75px auto 0 auto;
+}
+
+#user {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+
+    height: calc(428px - 100px);
+}
+
+#discord-user > img {
+    border-radius: 180px;
+    border: 5px solid white;
+}
+
+#discord-user > span {
+    display: block;
+    width: 250px;
+    padding: 10px 0px;
+}
+
+#discord-user > span > input {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(static/source/copy.png);
+    border: none;
+}
+
+#discord-user > span > input:focus {
+    border: none;
+    outline: none;
+    background: url(static/source/copied.png);
+}
+
+#user-name {
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#informations {
+    width: 300px;
+    margin: 0px 0 0 50px;
+}
+
+#informations h1 {
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-bottom: 20px !important;
+}
+
+#informations p{
+    color: rgb(180, 180, 180);
+    font-size: 16px;
+}
+
+#informations strong.song-name {
+    font-weight: 600;
+}
+
+#frase {
+    font-size: 18px;
+}
+
+#frase div {
+    margin-top: 10px;
+}
+
+#p-frase {
+    margin-bottom: 0;
+    font-family: Times, 'Times New Roman', serif;
+    color: white !important;
+    font-size: 17px !important;
+}
+
+#bottons a {
+    width: 25px;
+    height: 25px;
+
+    text-decoration: none;
+}
+
+.social-icon {
+    margin-top: 6px;
+    width: 25px;
+}
+
+.last-link {
+    margin-top: 6px;
+    margin-left: 5px;
+    width: auto !important;
+    float: right;
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        width: 80%;
+        top: 0;
+        margin-top: 30px;
+    }
+
+    #user {
+        padding: 35px;
+        height: auto;
+    }
+
+    #discord-user, #user-name, #informations {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #informations {
+        margin-top: 10px;
+    }
+
+    #informations h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        width: 100%;
+    }
+
+    #user {
+        border-radius: 0;
+        padding: 20px;
+        height: calc(702px - 70px);;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main {
+        width: 100%;
+    }
+
+    #user {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+
+/* Para Manipular com JS */
+
+.oculted {
+    display: none;
+}
+
+.display {
+    padding: 20px;
+    border-top: 5px solid rgba(255, 255, 255, 0.842);
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.bt {
+    font-size: 16px;
+
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.658);
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 0px;
+}
+
+.bt-normal {
+    position: relative;
+    top: 10px;
+}
+
+.bt-select {
+    padding-bottom: 20px;
+}
