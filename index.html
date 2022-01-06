@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreituu's Profile</title>
+    <meta name="description" content="Some informations about me">
+    <meta name="author" content="Ka-Konata">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="static/scripts/index.js"></script>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="stylesheet" href="static/styles/index.css">
+    <link rel="shortcut icon" href="https://ka-konata.site/static/source/favicon.ico" type="image/x-icon">
+  </head>
+  <body> 
+    <div class="main">
+        <div id="bottons">
+            <a href="/friends" rel="last" target="_self">Friends</a>
+            <a href="https://twitter.com/fvckkreituu" rel="external" target="_blank">Twitter</a>
+            <a href="https://open.spotify.com/user/31h3e3nrtpyaoatztekoulv5yati?si=855c6ec008884ed2" rel="external" target="_blank">Spotify</a>
+            <a href="https://www.instagram.com/fvckkreituu/" rel="external" target="_blank">Instagram</a>
+        </div>
+        <div id="user">
+            <div id="discord-user" class="center">
+                <img src="static/source/pfp3.gif" alt="Ka's profile picture" style="width: 240px;">
+                <span id="user-name">I'm Kreituu.#2607</span>
+            </div>
+
+            <div id="informations" class="center">
+                <div id="two-aboutme">
+                    <input id="button-1" class="bt bt-select" type="button" value="About Me" onclick="changeDisplay(1)">
+                    <input id="button-2" class="bt bt-normal" type="button" value="My Songs" onclick="changeDisplay(2)">
+                </div>
+
+                <div id="songs" class="oculted">
+                    <h1 style="margin-bottom: 8px;">My Favorite Songs</h1>
+                    <p class="song"><strong class="song-name">Arcade</strong> - Duncan Laurence</p>
+                    <p class="song"><strong class="song-name">Friends</strong> - Chase Atlantic</p>
+                    <p class="song"><strong class="song-name">Hollywood's Bleeding</strong> - Post Malone</p>
+                    <p class="song"><strong class="song-name">Sunflower</strong> - Post Malone</p>
+                    <p class="song"><strong class="song-name">Journey Home</strong> - DAY 7</p>
+                </div>
+
+                <div id="frase" class="display">
+                    <p class="song"><strong class="song-name">from:</strong> Brazil</p>
+                    <p class="song"><strong class="song-name">age:</strong> 17y</p>
+                    <p class="song"><strong class="song-name">desc:</strong> Web developer and future gamedev</p>
+                    <p class="song"><strong class="song-name">animes:</strong> Kyoukai no Kanata, K-on!, Your Name</p>
+                    <div>
+                        <p id="p-frase">❝ Nós acreditamos que o tempo decorre de forma linear, que ele avança uniformemente para sempre... Até o infinito. ❞</p>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: left;"></div>
+        </div>
+        <!--
+        <div id="bottons">
+            <a href="/friends" rel="last" target="_self">Friends</a>
+            <a href="https://twitter.com/fvckkreituu" rel="external" target="_blank">Twitter</a>
+            <a href="https://open.spotify.com/user/31h3e3nrtpyaoatztekoulv5yati?si=855c6ec008884ed2" rel="external" target="_blank">Spotify</a>
+            <a href="https://www.instagram.com/fvckkreituu/" rel="external" target="_blank">Instagram</a>
+        </div>
+        -->
+    </div>
+  </body>
+  <script>
+    function copyText() {
+        navigator.clipboard.writeText("Ka#0001")
+    }
+  </script>
+</html>
