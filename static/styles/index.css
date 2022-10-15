@@ -163,14 +163,20 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+    #bottons a {
+        border-radius: 0;
+    }
+
     .main {
         width: 100%;
+        height: inherit;
+        margin: 0;
     }
 
     #user {
         border-radius: 0;
         padding: 20px;
-        height: calc(702px - 70px);;
+        height: inherit;
     }
 }
 
