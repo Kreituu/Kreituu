@@ -1,6 +1,6 @@
 body {
     background-size: cover;
-    background-image: url(../source/bg-index.gif);
+    background-image: url(../static/source/bg-index.gif);
 }
 
 .main {
